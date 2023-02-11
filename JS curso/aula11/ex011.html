@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro?</title>
+</head>
+
+<body>
+    <h1>Voce eh Estrangeiro ou Brasileiro?</h1>
+    <div>
+        <p>Digite abaixo seu Pais de nascimento:</p>
+
+    </div>
+
+    <input type="text" name="txt1" id="txt1">
+    <input type="button" value="checar" onclick="csdfgdffr()">
+    <div id="res"></div>
+
+    <script>
+        function csdfgdffr() {
+            var pra = window.document.querySelector('input#txt1')
+            var res = window.document.querySelector('div#res')
+            var p = String(pra.value)
+            if (p == 'Brasil') {
+                res.innerHTML = ('Voce eh Brasileiro!')
+            }
+            else {
+                res.innerHTML = ('Voce eh Estrangeiro!')
+            }
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>

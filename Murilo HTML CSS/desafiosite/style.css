@@ -1,0 +1,129 @@
+@font-face {
+    font-family:'fonte' ;
+    src: url('fontes/idroid.otf') format('opentype'); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ccc1a1;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1em;
+
+}
+header{
+    color: rgba(255, 255, 255, 0.946);
+    background: linear-gradient(0deg,#063E1C 20%, #248F56);
+    padding-top: 40px;
+    text-align: center;
+    font-family:'--fonte-destaque';
+    min-width: 250px;
+    min-height: 100px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.518);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.533);
+}
+header>section{
+    font-weight: bold;
+    padding: 20px 10px 20px 10px;
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 0.9em;
+}
+header>nav{
+    text-align: left; 
+    font-size: 0.9em;
+    padding: 10px;
+}
+header>nav>a{
+    text-decoration: none;
+    color: #ffffff80;
+    font-weight: bold;
+    padding-right: 20px;
+}
+header>nav>a:hover{
+    color: #91fac2;
+    transition-duration: .1s;
+    /* font-size: 1.5em;
+    padding: 50px; */
+}
+main{
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.487);
+    
+}
+main>h2{
+    font-family: 'fonte';
+    color:#063E1C ;
+    font-weight: lighter;
+    margin: 3px auto 15px auto;
+    padding-left: 10px;
+    text-align: left;
+    
+}
+main>h3{
+    font-family: 'fonte';
+    color:#063E1C ;
+    font-weight: lighter;
+    background: linear-gradient(90deg,#2cc45a91  ,transparent ) ;
+    font-size: 1.1em;
+    padding-left: 5px;
+    margin: 15px auto 15px auto;
+}
+main>p{
+    text-indent: 1.5em;
+}
+.links{
+    background-color:#2cc4736e;
+    text-decoration: none;
+    font-weight: bold;
+    color: #063e1c;
+}
+.links:hover{
+    text-decoration: underline;
+    color: #68ba90;
+}
+.img{
+    display: block;
+    margin: auto;
+    margin: 15px auto 15px auto;
+}
+main>div{
+    background: #063e1cc6;
+    margin: 15px -16px;
+    padding: 15px;
+    
+    }
+img{
+    width: 100%;
+}
+main>section{
+    padding: 20px;
+    background-color: #248f567d;
+    border-radius: 10px;
+}
+footer{
+    background-color: #063e1c;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    columns: 2;
+    padding: 15px 0px;
+    list-style-type: '\2714\00a0';
+}
+#img1{
+max-width: 300px ;
+}
