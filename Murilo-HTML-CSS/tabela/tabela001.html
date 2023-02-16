@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table#first{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+        table#second{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.276);
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+            vertical-align: top;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        td.num{
+            text-align: right;
+        }
+        tbody>tr:nth-child(2n){ /* odd even*/
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table id="first">
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr3>
+    </table>
+    <table id="second">
+        <caption>Populacao Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">99999999</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">99999999</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num"><strong>9999999999</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit doloremque quam sunt omnis libero molestias quod magni laudantium debitis, delectus totam necessitatibus maxime reiciendis nulla perspiciatis laboriosam odio odit. Aperiam.</p>
+</body>
+</htmtr
