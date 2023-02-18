@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>fieldset test</legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required maxlength="30" placeholder="Full Name" autocomplete="name">
+            </p>
+            <p>
+                <label for="average">Average</label>
+                <input type="number" name="average" id="average" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+            </p>
+            <p>
+                <label for="month">Date</label>
+                <input type="month" name="month" id="month" value="2023-02">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required autocomplete="email">
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" autocomplete="tel" required pattern="^[0-9]{4,5}-[0-9]{4}$">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+    
+</body>
+</html>
