@@ -46,12 +46,21 @@
                 <label for="role">Role</label>
                 <input type="text" name="role" id="role" list="rolelist">
                 <datalist id="rolelist">
-                    <option>Adm</option>
-                    <option></option>
+                    <option value="ADM">Adm</option>
+                    <option value="B">optionb</option>
+                    <option value="C">optionc</option>
+                    <option value="D">optiond</option>
                 </datalist>
             </p>
-
-
+            <p>
+                <label for="msg">msg</label><br>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <label for="num">Number</label>
+                <input type="range" name="num" id="num" min="0" max="10" value="5" oninput="valo.innerHTML = Number(num.value)">
+                <output id="valo">5</output>
+            </p>
         </fieldset>
         <p>
             <input type="submit" value="Submit">
